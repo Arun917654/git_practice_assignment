@@ -1,14 +1,8 @@
-factor=0;
-for(i=1;i<=a;i++){
-    if(i%a==0){
-        factor++;
+let a=13;
+let count=0;
+for(i=1; i<=a; i++){
+    if(a%i==0){
+        count++;
     }
-}for(j=1;j<=b;j++){
-    if(j%b==0){
-        factor++;
-    }
-}if(factor==4){
-    console.log("True")
-}else{
-    console.log("False")
 }
+ (count==2)? console.log("Yes"): console.log("No");
