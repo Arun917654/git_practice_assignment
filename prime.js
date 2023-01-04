@@ -1,0 +1,14 @@
+factor=0;
+for(i=1;i<=a;i++){
+    if(i%a==0){
+        factor++;
+    }
+}for(j=1;j<=b;j++){
+    if(j%b==0){
+        factor++;
+    }
+}if(factor==4){
+    console.log("True")
+}else{
+    console.log("False")
+}
