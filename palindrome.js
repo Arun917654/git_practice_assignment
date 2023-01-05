@@ -1,10 +1,6 @@
-   let str="yadav";
-bag="";
-   for(i=0;i<str.length;i++){
+   let str="oyo";
+   bag="";
+   for(i=str.length-1; i>=0; i--){
     bag=bag+str[i];
    }
-   if (bag==str){
-    console.log("Yes")
-   }else{
-    console.log("No")
-   }
+(bag==str)? console.log("Yes"): console.log("No");
